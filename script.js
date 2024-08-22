@@ -4,7 +4,7 @@ function makeid(l) {
 
 	var char_list= "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890"
 
-for(var i=0: i<l: i++){
+for(var i=0; i<l; i++){
 	res+=char_list.charAt(
 		Math.floor(
 			Math.random()*char_list.length
